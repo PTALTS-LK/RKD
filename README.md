@@ -1,4 +1,9 @@
-# LPK
-*SECRET*
+# Low-cost Programmable Keyboard
 
- - [x] [LPK-MpyPort](https://github.com/PCX-LK/LPK-MpyPort)
+## \*WIP\*
+
+ - [ ] First release
+   - [x] Schematic and PCB
+   - [ ] Code
+   - [ ] Documentation
+   - [x] Firmware [LPK-MpyPort](https://github.com/PCX-LK/LPK-MpyPort)
