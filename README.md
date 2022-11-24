@@ -1,9 +1,9 @@
-# Low-cost Programmable Keyboard
+# RP2040-based Devkit Keyboard
 
 ## \*WIP\*
 
  - [ ] First release
    - [x] Schematic and PCB
-   - [ ] Code
+   - [ ] Code (MicroPython)
    - [ ] Documentation
-   - [x] Firmware [LPK-MpyPort](https://github.com/PCX-LK/LPK-MpyPort)
+   - [x] Firmware [RDK-MpyPort](https://github.com/PCX-LK/RDK-MpyPort)
