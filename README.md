@@ -1,4 +1,4 @@
-# RP2040-based Devkit Keyboard
+# RP2040-based Keyboard Devkit
 
 ## \*WIP\*
 
