@@ -6,4 +6,4 @@
    - [x] Schematic and PCB
    - [ ] Code (MicroPython)
    - [ ] Documentation
-   - [x] Firmware [RDK-MpyPort](https://github.com/PCX-LK/RDK-MpyPort)
+   - [x] Firmware [RKD-MpyPort](https://github.com/PCX-LK/RKD-MpyPort)
