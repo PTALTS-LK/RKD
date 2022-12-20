@@ -7,4 +7,4 @@
    - [ ] Code (MicroPython)
      - [ ] Hardware macros
    - [ ] Documentation
-   - [x] Firmware [RKD-MpyPort](https://github.com/PCX-LK/RKD-MpyPort)
+   - [x] Micropython Firmware [RKD-MpyPort](https://github.com/PCX-LK/RKD-MpyPort)
