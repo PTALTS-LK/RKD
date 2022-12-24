@@ -4,6 +4,7 @@
 
  - [ ] First release
    - [x] Schematic and PCB
+     - [ ] Ported to lceda pro
    - [ ] Code (MicroPython)
      - [ ] Hardware macros
    - [ ] Documentation
