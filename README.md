@@ -31,7 +31,9 @@ _~~只是一个高一学生用业余时间整出来的垃圾项目罢了，PCB�
 
 ## 项目文件结构
   [Docs](https://github.com/PCX-LK/RKD/tree/main/Docs) 各种文档
+
   [PCB](https://github.com/PCX-LK/RKD/tree/main/PCB) 当前版本的电路板Kicad设计文件
+
   [MPY_code](https://github.com/PCX-LK/RKD/tree/main/MPY_code) Micropython主控程序
 
   Micropython固件可在 [RKD-MpyPort](https://github.com/PCX-LK/RKD-MpyPort) 的Release页面找到
