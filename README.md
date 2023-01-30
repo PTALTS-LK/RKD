@@ -27,11 +27,11 @@ _~~只是一个高一学生用业余时间整出来的垃圾项目罢了，PCB�
   - 键位可以方便的设置（板上Flash fat32文件系统config.json）
   - 内置了宏执行器（格式请参照文档）
   - 使用机械键盘键轴，可插拔（使用MX轴体）
-  - 仍在使用~~极为先进~~早就落伍的MicroUSB接口
+  - 接口有MicroUSB和Type-C两种版本
   - ~~***没了***~~
 
 ## 项目文件结构
-  [Docs](https://github.com/PCX-LK/RKD/tree/main/Docs) 各种文档 ~~目前什么都没有~~
+  [Docs](https://github.com/PCX-LK/RKD/tree/main/Docs) 各种文档 ~~在做在做了~~
 
   [PCB](https://github.com/PCX-LK/RKD/tree/main/PCB) 当前版本的电路板Kicad设计文件
 

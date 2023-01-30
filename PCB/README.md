@@ -7,3 +7,5 @@
 - stand :
 
   - 只包含了主板PCB/原理图
+
+带typec的为type-c接口的版本
