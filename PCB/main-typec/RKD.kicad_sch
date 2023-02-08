@@ -15719,7 +15719,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid cb0d88bb-9c4c-4c4d-ad2e-692d2f8e5d90)
     (property "Reference" "U4" (id 0) (at 182.88 34.29 0))
-    (property "Value" "AP1117-33" (id 1) (at 182.88 36.83 0))
+    (property "Value" "AMS1117-33" (id 1) (at 182.88 36.83 0))
     (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (id 2) (at 182.88 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -16689,7 +16689,7 @@
       (reference "U3") (unit 1) (value "CH9329") (footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm")
     )
     (path "/cb0d88bb-9c4c-4c4d-ad2e-692d2f8e5d90"
-      (reference "U4") (unit 1) (value "AP1117-33") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
+      (reference "U4") (unit 1) (value "AMS1117-33") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/ff4b2401-c0e1-4c1f-9136-1d9dd7534361"
       (reference "Y1") (unit 1) (value "Crystal 12MHZ HC49") (footprint "Crystal:Crystal_SMD_HC49-SD")
