@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "ch9329")(type "KiCad")(uri "${KIPRJMOD}/LIB/CH9329.kicad_sym")(options "")(descr ""))
+  (lib (name "Key")(type "KiCad")(uri "${KIPRJMOD}/LIB/Key.kicad_sym")(options "")(descr ""))
+)
