@@ -1,3 +1,4 @@
 PCB/**/**/*-backups
 PCB/**/**/gerber
+PCB/**/**/gerber_to_order
 PCB/**/**/*.csv
