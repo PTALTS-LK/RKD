@@ -1,6 +1,6 @@
 # 物料清单
 
-关于元件位号和摆放可以查看 [Visual-BOM_gerber](Docs/Visual-BOM_gerber) 下的ibom.html可视化BOM文件
+关于元件位号和摆放可以查看 [Visual-BOM_gerber](Visual-BOM_gerber) 下的ibom.html可视化BOM文件
 
 以下是该项目会用到的元件
 
