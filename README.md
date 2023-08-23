@@ -40,4 +40,4 @@
 
   [MPY_code](MPY_code) Micropython主控程序
 
-  Micropython固件可在 [RKD-MpyPort](https://github.com/PCX-LK/RKD-MpyPort) 的Release页面找到
+  Micropython固件可在 [RKD-MpyPort](https://github.com/PTALTS-LK/RKD-MpyPort) 的Release页面找到
