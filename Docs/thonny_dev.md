@@ -1,5 +1,7 @@
 # 使用Thonny IDE进行键位设置/开发
 
+## 已不再推荐使用该方法修改键位
+
 ## 1 - 安装Thonny
 
 ### 1.1 - Windows
@@ -12,7 +14,7 @@
 
 ##### **Thonny[官网](https://thonny.org/)**
 
-![1.1.1](PICs/config/1.1.1.png)
+![1.1.1](PICs/thonny/1.1.1.png)
 
 鼠标悬浮在"Windows"上，会弹出菜单
 
@@ -30,7 +32,7 @@ thonny-x.x.x.exe
 
 ##### **Github [Release页面](https://github.com/thonny/thonny/releases)**
 
-![1.1.2](PICs/config/1.1.2.png)
+![1.1.2](PICs/thonny/1.1.2.png)
 
 在展开Assets之后
 
@@ -75,7 +77,7 @@ pip install --upgrade thonny --break-system-packages
 
 在这里选择语言和初始配置
 
-![2.1](PICs/config/2.1.png)
+![2.1](PICs/thonny/2.1.png)
 
 "Language"不用说，直接选择"简体中文"
 
@@ -87,13 +89,13 @@ pip install --upgrade thonny --break-system-packages
 
 不出意外的话，你的界面应该是这个样子
 
-![2.2](PICs/config/2.2.png)
+![2.2](PICs/thonny/2.2.png)
 
 点击工具栏中的"视图"，中勾选"文件"
 
 这时视图应该会变成这样
 
-![2.2-1](PICs/config/2.2-1.png)
+![2.2-1](PICs/thonny/2.2-1.png)
 
 ### 2.3 - 设置解释器
 
@@ -107,39 +109,39 @@ pip install --upgrade thonny --break-system-packages
 
 设置完后界面应该是这样
 
-![2.3](PICs/config/2.3.png)
+![2.3](PICs/thonny/2.3.png)
 
 点击"好的"保存退出设置
 
 ## 3 - 使用Thonny进行键位更改/开发
-
+<!--  -->
 ### 3.1 - 连接RKD & 将Thonny连接到RKD上的MPY REPL
 
 首先使用调试线连接RKD到电脑上，系统把设备设置完毕后会在资源管理器中多出一个3mib容量的usb存储设备，不要使用资源管理器打开它
 
 回到Thonny，先按下界面左上方的红色"停止/重启后端进程"按钮或者按下Ctrl+F2
 
-![stop](PICs/config/stop.png)
+![stop](PICs/thonny/stop.png)
 
 如果界面底下shell面板输出如下（找无法自动找到设备）
 
-![3.1](PICs/config/3.1.png)
+![3.1](PICs/thonny/3.1.png)
 
 请去设置解释器的页面中在端口下拉框中选择设备"Board in FS mode - Board CDC"
 
-![3.1-1](PICs/config/3.1-1.png)
+![3.1-1](PICs/thonny/3.1-1.png)
 
 点击"好的"保存之后，shell面板应该输出如下，意思是设备忙于运行而无法响应
 
-![3.1-2](PICs/config/3.1-2.png)
+![3.1-2](PICs/thonny/3.1-2.png)
 
 所以要在shell面板里面按下Ctrl+C终止RKD板上主控的运行，此时应该输出为下
 
-![3.1-3](PICs/config/3.1-3.png)
+![3.1-3](PICs/thonny/3.1-3.png)
 
 然后你就会发现界面左边的"MicroPython设备"面板加载出了文件
 
-![3.1-4](PICs/config/3.1-4.png)
+![3.1-4](PICs/thonny/3.1-4.png)
 
 这些文件储存在RKD主板上面的Flash中，"boot.py"文件和"lib"文件夹是RKD所运行的程序和依赖库
 
@@ -147,7 +149,7 @@ pip install --upgrade thonny --break-system-packages
 
 只需要双击打开并修改"MicroPython设备"面板中的"config.json"就能修改键位
 
-![3.2](PICs/config/3.2.png)
+![3.2](PICs/thonny/3.2.png)
 
 冒号前面为按键，冒号后面为该键对应的键值
 
