@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.2,
-          "height": 2.5,
-          "width": 3.0
+          "drill": 0.0,
+          "height": 2.032,
+          "width": 2.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -107,7 +107,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
