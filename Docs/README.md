@@ -16,6 +16,10 @@
 
 [RKD.dxf](RKD.dxf) 外壳切割文件
 
+## 引脚图
+
+![RKD-Pinout](PICs/RKD-Pinout.svg)
+
 ## 建议
 
 **欢迎对文档提出建议或纠错**
