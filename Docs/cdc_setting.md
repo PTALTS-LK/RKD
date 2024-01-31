@@ -26,7 +26,7 @@
 
 连接之前确保RKD的`F3`没有上拨,如果上拨了,请拨下之后按下`RUN`按钮
 
-### ~~PC端 (SerialStuido)~~ SerialStudio在Windows以及Linux下存在较大问题,请直接跳到"使用Thonny的shell来修改"
+### ~~PC端 (SerialStuido)~~ SerialStudio在Windows以及Linux下存在较大问题,PC用户请直接跳到"使用Thonny的shell来修改"一节
 
 使用调试线连接PC与RKD
 
