@@ -8,11 +8,11 @@
 
 [key_map.md](key_map.md) 按键对应键值的说明
 
-[MAKE.md](MAKE.md) 制作主要事项
+[MAKE.md](MAKE.md) 制作注意事项
 
 [Wire-key-positioning.md](Wire-key-positioning.md) 关于如何焊接钢丝键轴固定
 
-[setting.md](setting.md) 通过串口来设置键位的教程
+[cdc_setting.md](cdc_setting.md) 通过串口来设置键位的说明
 
 [RKD.dxf](RKD.dxf) 外壳切割文件
 

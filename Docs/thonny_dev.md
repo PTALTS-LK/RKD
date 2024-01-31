@@ -103,7 +103,7 @@ pip install --upgrade thonny --break-system-packages
 
 点击工具栏中的"运行"，在点击"选择解释器"，会弹出Thonny的设置窗口
 
-将"Thonny 应该使用哪种解释器来运行您的代码？"下拉框的内容更改为"Micropython (通用)"
+将"Thonny 应该使用哪种解释器来运行您的代码？"下拉框的内容更改为"Micropython (通用)"或者"Micropython (RP2040)"
 
 取消勾选"连接时中断运行中的程序"和"运行代码前，先重启解释器"复选框
 
