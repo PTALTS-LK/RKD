@@ -1,6 +1,6 @@
 # 使用串口进行键位修改
-## SerialStudio在win下无法读取串口,且在Linux下通讯输出会乱码,暂时未找到解决方案,可以使用Thonny的串口shell来代替
-最近的固件更新中更新了基于串口的指令设置方式（目前只支持更改按键）
+
+最近的主控更新中更新了基于串口的指令设置方式（目前只支持更改按键）
 
 支持PC（Windows,Linux,OSX）端以及Android端
 
@@ -10,11 +10,11 @@
 
 ### PC端
 
-请根据自己的平台前往SerialStudio的[Release](https://github.com/Serial-Studio/Serial-Studio/releases)下载安装文件
+请根据自己的平台前往COMTool的[Sourceforge](https://sourceforge.net/projects/comtool/files)下载安装文件
 
-- Windows用户请下载以`exe`或`Windows.zip`结尾的文件
-- Linux用户请下载以`AppImage`结尾的文件
-- OSX用户请下载以`macOS.zip`结尾的文件
+- Windows用户请下载`comtool_windows_<COMTool版本>.7z`
+- Linux用户请下载`comtool_ubuntu_<COMTool版本>.tar.xz`结
+- OSX用户请下载`comtool_macos_<COMTool版本>.dmg`
 
 ### Android端
 
@@ -26,79 +26,42 @@
 
 连接之前确保RKD的`F3`没有上拨,如果上拨了,请拨下之后按下`RUN`按钮
 
-### ~~PC端 (SerialStuido)~~ SerialStudio在Windows以及Linux下存在较大问题,PC用户请直接跳到"使用Thonny的shell来修改"一节
+### PC端 (COMTool)
 
 使用调试线连接PC与RKD
 
+连接之后打开`COMTool`
+
 ![0](PICs/cdc_setting/0.png)
 
-连接之后打开`SerialStuido`
+点击这个图标来设置语言，然后点击`Yes`来确认重启
 
 ![1](PICs/cdc_setting/1.png)
 
-点击`COM端口`打开下拉栏
-
-在此处选择端口
-- Linux：选择`ttyACM*`
-- OSX： 我不到啊
-- Windows： 选择`COM*`
-  - 如果你不知道哪个才是正确的端口,请先拔下调试线,注意看哪个端口消失了,然后再把调试线插回来，,选择多出来的那个端
-
-其他参数无需变更
-
-确保下图所示区域配置相同
+`连接`面板配置:
+- 打开`dtr`
+- 点击`端口`下拉框来选择端口,应选择带有`RKD`字样的端口
+- 其余保持默认
 
 ![2](PICs/cdc_setting/2.png)
 
-然后点击绿色的`连接`
+`发送设置`面板配置:
+- 勾选`新行`
+- 其余保持默认
 
 ![3](PICs/cdc_setting/3.png)
 
-然后绿色的`连接`会变成红色的`断开`
+点击`连接`面板中的`打开`来连接到端口
 
 ![4](PICs/cdc_setting/4.png)
 
-此时将RKD的`F3`上拨
-
-你将会在右边看见以下内容输出:
+之后上拨RKD的`F3`,此时接收面板应输出以下内容则证明连接成功
 
 ![5](PICs/cdc_setting/5.png)
 
-现在就成功连接到了RKD的设置串口
+在发送面板输入`help`,然后按下右边的纸飞机(发送)按钮,接收面板内容应如下
 
-### Android端 (Serial USB Terminal)
-
-使用OTG线+调试线连接RKD与Android设备
-
-- 如果连接没有反应（RKD的电源指示灯`POW`未亮起）
-
-  则有可能你的手机需要在设置中手动开启OTG功能，如何开启请根据自己的手机品牌型号自行百度
-
-连接之后打开`Serial USB Terminal`
-
-![6](PICs/cdc_setting/6.jpg)
-
-点击右上角的连接图标
-
-![7](PICs/cdc_setting/7.png)
-
-此时应该会弹出一个授权窗口,点确定
-
-然后拨上RKD的`F3`
-
-![8](PICs/cdc_setting/8.jpg)
-
-如果出现以上内容则证明连接成功
-
-## 进行键位修改
-
-可以先输入`help`来查看可用的命令
-
-![9](PICs/cdc_setting/9.png)
-
-目前只有`key`,用于获取键位设置和修改键位
-
-可以输入`help <指令>` (不需要添加尖括号) 来查看对应指令的参数帮助
+![6](PICs/cdc_setting/6.png)
 
 ### 使用Thonny的shell来修改 (PC端)
 
@@ -111,6 +74,40 @@
 ![th-o](PICs/cdc_setting/th-0.png)
 
 进入设置模式成功
+
+### Android端 (Serial USB Terminal)
+
+使用OTG线+调试线连接RKD与Android设备
+
+- 如果连接没有反应（RKD的电源指示灯`POW`未亮起）
+
+  则有可能你的手机需要在设置中手动开启OTG功能，如何开启请根据自己的手机品牌型号自行百度
+
+连接之后打开`Serial USB Terminal`
+
+![a-1](PICs/cdc_setting/a-1.jpg)
+
+点击右上角的连接图标
+
+![a-2](PICs/cdc_setting/a-2.png)
+
+此时应该会弹出一个授权窗口,点确定
+
+然后上拨RKD的`F3`
+
+![a-3](PICs/cdc_setting/a-3.jpg)
+
+如果出现以上内容则证明连接成功
+
+## 进行键位修改
+
+可以先输入`help`来查看可用的命令
+
+![9](PICs/cdc_setting/9.png)
+
+目前只有`key`,用于获取键位设置和修改键位
+
+可以输入`help <指令>` (不需要添加尖括号) 来查看对应指令的参数帮助
 
 ### 命令
 
