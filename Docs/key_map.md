@@ -2,6 +2,8 @@
 
 还可以参考MPY_code中[tools.py](https://github.com/PCX-LK/RKD-MpyCode/blob/979dd39ad3c4af1102518f772fbc5197f3a658ba/code/lib/tools.py)中的key_dict函数来设置键位
 
+在串口中修改键位时,请不要带双引号
+
 ## 数字键区
 
 |按键名|对应键值|
