@@ -1,3 +1,4 @@
+.vscode
 PCB/**/**/*-backups
 PCB/**/**/gerber
 PCB/**/**/bom
